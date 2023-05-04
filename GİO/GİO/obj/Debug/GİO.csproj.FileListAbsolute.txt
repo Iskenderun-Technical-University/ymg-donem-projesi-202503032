@@ -9,3 +9,5 @@ C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Deb
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.csproj.CoreCompileInputs.cache
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.exe
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.pdb
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.Form2.resources
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.Form3.resources
