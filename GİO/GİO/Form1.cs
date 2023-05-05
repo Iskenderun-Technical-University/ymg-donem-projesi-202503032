@@ -72,7 +72,7 @@ namespace GİO
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //VeriTabani.MD5Sifrele(textBox2.Text);
+            VeriTabani.MD5Sifrele(textBox2.Text);
             string kullanici = textBox1.Text;
             string sifre = textBox2.Text;
             bool yönetici = radioButton2.Checked;
@@ -80,7 +80,7 @@ namespace GİO
             com = new SqlCommand();
             con.Open();
             com.Connection = con;
-            com.CommandText = "Select *From Login where kullanici='" + textBox1.Text + "' And sifre='" + textBox2.Text + "' And yönetici = '" + radioButton2.Checked + "'";
+            com.CommandText = "Select *From Login where kullanici='" + textBox1.Text + "' And sifre='" + VeriTabani.MD5Sifrele(textBox2.Text) + "' And yönetici = '" + radioButton2.Checked + "'";
             dr = com.ExecuteReader();
             if (dr.Read())
             {
@@ -90,10 +90,14 @@ namespace GİO
                 {
                     metin = kullanici;
                     
+                    
                 }
                 if (radioButton2.Checked)
                 {
                     metin = kullanici;
+                    Form2 form2 = new Form2();
+                    form2.Show();
+                    this.Hide();
                     
                 }
                

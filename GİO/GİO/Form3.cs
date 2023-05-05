@@ -48,7 +48,7 @@ namespace GİO
             con.Open();
             SqlCommand cmd = new SqlCommand("insert into Login (kullanici, sifre, yönetici) values (@p1,@p2,@p4)", con);
             cmd.Parameters.AddWithValue("@p1", txtKullanici.Text);
-            cmd.Parameters.AddWithValue("@p2", txtSifre.Text);
+            cmd.Parameters.AddWithValue("@p2", VeriTabani.MD5Sifrele(txtSifre.Text));
             cmd.Parameters.AddWithValue("@p4", radioButton2.Checked);
             cmd.ExecuteNonQuery();
             con.Close();
@@ -69,7 +69,7 @@ namespace GİO
             con.Open();
             SqlCommand cmd = new SqlCommand("update Login set kullanici=@p1, sifre=@p2,yönetici=@p4 where no=@p3", con);
             cmd.Parameters.AddWithValue("@p1", txtKullanici.Text);
-            cmd.Parameters.AddWithValue("@p2", txtSifre.Text);
+            cmd.Parameters.AddWithValue("@p2", VeriTabani.MD5Sifrele(txtSifre.Text));
             cmd.Parameters.AddWithValue("@p3", Convert.ToInt32(txtNo.Text));
             cmd.Parameters.AddWithValue("@p4", radioButton2.Checked);
             cmd.ExecuteNonQuery();
@@ -88,5 +88,7 @@ namespace GİO
             dataGridView1.DataSource = dt;
             con.Close();
         }
+
+        
     }
 }

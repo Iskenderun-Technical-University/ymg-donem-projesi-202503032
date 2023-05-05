@@ -48,6 +48,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Personel İşlemleri";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -106,10 +107,11 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(743, 100);
+            this.panel1.Size = new System.Drawing.Size(746, 100);
             this.panel1.TabIndex = 7;
             // 
             // Form2

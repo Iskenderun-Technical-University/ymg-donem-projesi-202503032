@@ -34,7 +34,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.txtNo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
@@ -44,8 +43,11 @@
             this.txtKullanici = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtNo = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button4
@@ -113,14 +115,6 @@
             this.radioButton1.Text = "Personel";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // txtNo
-            // 
-            this.txtNo.Location = new System.Drawing.Point(79, 211);
-            this.txtNo.Margin = new System.Windows.Forms.Padding(2);
-            this.txtNo.Name = "txtNo";
-            this.txtNo.Size = new System.Drawing.Size(133, 20);
-            this.txtNo.TabIndex = 29;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -150,7 +144,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(253, 248);
+            this.button3.Location = new System.Drawing.Point(254, 248);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(153, 31);
@@ -217,16 +211,35 @@
             this.label1.TabIndex = 20;
             this.label1.Text = "Kullanıcı Adı";
             // 
+            // txtNo
+            // 
+            this.txtNo.AutoSize = true;
+            this.txtNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.txtNo.Location = new System.Drawing.Point(1, 3);
+            this.txtNo.Name = "txtNo";
+            this.txtNo.Size = new System.Drawing.Size(41, 15);
+            this.txtNo.TabIndex = 34;
+            this.txtNo.Text = "label5";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.txtNo);
+            this.panel1.Location = new System.Drawing.Point(79, 216);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(133, 17);
+            this.panel1.TabIndex = 35;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(468, 358);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.txtNo);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button3);
@@ -242,6 +255,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -255,7 +270,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox txtNo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button3;
@@ -265,5 +279,7 @@
         private System.Windows.Forms.TextBox txtKullanici;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtNo;
+        private System.Windows.Forms.Panel panel1;
     }
 }
