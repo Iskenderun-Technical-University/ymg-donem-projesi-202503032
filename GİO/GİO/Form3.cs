@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace GİO
 {
@@ -87,6 +88,7 @@ namespace GİO
             da.Fill(dt);
             dataGridView1.DataSource = dt;
             con.Close();
+            if (textBox1.Text == "") Login();
         }
 
         
