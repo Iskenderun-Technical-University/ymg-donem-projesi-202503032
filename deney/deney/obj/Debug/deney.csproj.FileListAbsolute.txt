@@ -1,0 +1,12 @@
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\bin\Debug\deney.exe.config
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\bin\Debug\deney.exe
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\bin\Debug\deney.pdb
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.csproj.AssemblyReference.cache
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.csproj.SuggestedBindingRedirects.cache
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.Form1.resources
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.Form2.resources
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.Properties.Resources.resources
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.csproj.GenerateResource.cache
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.csproj.CoreCompileInputs.cache
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.exe
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\deney\deney\obj\Debug\deney.pdb

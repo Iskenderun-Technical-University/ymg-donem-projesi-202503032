@@ -59,6 +59,7 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Satış Paneli";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -73,11 +74,12 @@
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button4.Location = new System.Drawing.Point(45, 279);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(153, 133);
             this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
+            this.button4.Text = "Müşteri İşlemleri";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -91,18 +93,19 @@
             // 
             // button6
             // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button6.Location = new System.Drawing.Point(533, 279);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(153, 133);
             this.button6.TabIndex = 5;
-            this.button6.Text = "button6";
+            this.button6.Text = "Geçmiş İşlemleri";
             this.button6.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(201, 32);
+            this.label1.Location = new System.Drawing.Point(201, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(298, 36);
             this.label1.TabIndex = 6;
@@ -114,7 +117,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-1, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(734, 100);
+            this.panel1.Size = new System.Drawing.Size(734, 88);
             this.panel1.TabIndex = 7;
             // 
             // Form2
@@ -122,7 +125,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(733, 476);
+            this.ClientSize = new System.Drawing.Size(733, 433);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -133,6 +136,7 @@
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Yönetici";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

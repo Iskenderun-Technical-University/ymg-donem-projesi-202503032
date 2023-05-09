@@ -89,8 +89,11 @@ namespace GİO
                 if (radioButton1.Checked)
                 {
                     metin = kullanici;
-                    
-                    
+                    Form5 form5 = new Form5();
+                    form5.Show();
+                    this.Hide();
+
+
                 }
                 if (radioButton2.Checked)
                 {

@@ -59,10 +59,12 @@ namespace GİO
             Ürün();
         }
 
+
+        
         private void button3_Click(object sender, EventArgs e)
         {
             con.Open();
-            SqlCommand cmd = new SqlCommand("delete from Ürünler where islemID= @p1", con);
+            SqlCommand cmd = new SqlCommand("delete from Ürünler where ID= @p1", con);
             cmd.Parameters.AddWithValue("@p1", Convert.ToInt32(textBox7.Text));
             cmd.ExecuteNonQuery();
             con.Close();
@@ -94,6 +96,8 @@ namespace GİO
             con.Close();
             Ürün();
         }
+
+        
     }
 
 }
