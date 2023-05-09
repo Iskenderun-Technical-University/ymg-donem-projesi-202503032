@@ -12,3 +12,4 @@ C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Deb
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.Form2.resources
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.Form3.resources
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.Form4.resources
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\GİO\obj\Debug\GİO.Form5.resources
