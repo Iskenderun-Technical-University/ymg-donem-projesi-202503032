@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/QA5O9x4M)
                                             GENEL İŞLETME OTOMASYONU(GİO)
 
 Genel işletme otomasyonu genellikle çok sayıda ürün ve malzeme stoğunda tutuyorlar. Bu nedenle, tüm stoğu takip etmek ve yönetmek oldukça zor olabilir. İşte bu noktada, işletme yazılımı devreye girer ve işletme sahiplerine birçok fayda sağlar.
