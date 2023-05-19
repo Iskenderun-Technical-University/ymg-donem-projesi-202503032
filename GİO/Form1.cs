@@ -29,10 +29,6 @@ namespace GİO
         }
         public static string metin;
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -46,9 +42,6 @@ namespace GİO
 
             else { textBox2.PasswordChar = '*'; }
         }
-
-
-
         private void Form1_MouseUp(object sender, MouseEventArgs e)
         {
             move = false;

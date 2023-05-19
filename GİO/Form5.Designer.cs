@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -119,6 +120,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(179, 20);
             this.textBox3.TabIndex = 5;
+            this.textBox3.Text = "Kasa";
             // 
             // textBox2
             // 
@@ -413,7 +415,7 @@
             this.tableLayoutPanel3.Controls.Add(this.label13, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.textBox12, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.textBox11, 1, 1);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(1016, 447);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(1008, 442);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -460,7 +462,7 @@
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.Location = new System.Drawing.Point(1016, 531);
+            this.button5.Location = new System.Drawing.Point(1008, 526);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(56, 44);
             this.button5.TabIndex = 23;
@@ -471,12 +473,13 @@
             // button6
             // 
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.Location = new System.Drawing.Point(1078, 531);
+            this.button6.Location = new System.Drawing.Point(1070, 526);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(184, 44);
             this.button6.TabIndex = 24;
             this.button6.Text = "Bitir veÖde";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label14
             // 
@@ -512,16 +515,16 @@
             this.panel2.Controls.Add(this.tableLayoutPanel2);
             this.panel2.Controls.Add(this.label16);
             this.panel2.Controls.Add(this.label14);
-            this.panel2.Location = new System.Drawing.Point(531, 332);
+            this.panel2.Location = new System.Drawing.Point(518, 325);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(298, 269);
+            this.panel2.Size = new System.Drawing.Size(298, 276);
             this.panel2.TabIndex = 29;
             // 
             // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1285, 596);
+            this.ClientSize = new System.Drawing.Size(1285, 601);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -535,6 +538,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";

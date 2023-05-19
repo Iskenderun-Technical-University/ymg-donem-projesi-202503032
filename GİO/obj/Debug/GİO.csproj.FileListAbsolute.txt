@@ -31,3 +31,4 @@ C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\obj\Debug\G�
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\obj\Debug\GİO.csproj.CoreCompileInputs.cache
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\obj\Debug\GİO.exe
 C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\obj\Debug\GİO.pdb
+C:\Users\alisa\OneDrive\Masaüstü\ymg-donem-projesi-202503032\GİO\obj\Debug\GİO.Form8.resources
